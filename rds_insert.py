@@ -6,6 +6,7 @@ import psycopg2
 
 load_dotenv()
 
+#TODO: 1. Take Data from faker and insert  
 
 cur = engine.cursor()
 
