@@ -18,5 +18,7 @@ json data processes it using Pandas and inserts into RDS.
     - [x]  Convert Data to json format
 - [x]  Upload Data to S3 bucket
 - [x]  Read uploaded data from S3 using lambda
+  - [x] Install required libraries in Lambda environment (Pandas, Psycopg2)
+  - [ ] Read environment variables in lambda
 - [ ]  Preprocessing in Pandas
 - [ ]  Save data to RDS
