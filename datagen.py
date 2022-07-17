@@ -16,8 +16,10 @@ def generate_data():
 parser = argparse.ArgumentParser()
 parser.add_argument("count", help="Count of data to generate")
 
+args = parser.parse_args()
 
-for i in range(1):
+
+for i in range(int(args.count)):
     profile = faker.profile()
     with open("data/" + profile['username'] + '.json', 'a') as prof:
         del profile['current_location']
