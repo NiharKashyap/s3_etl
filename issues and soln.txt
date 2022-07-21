@@ -1,0 +1,3 @@
+Issue 1: S3 Bucket trigger for Lambda
+Issue 2: Installing dependency on Lambda 
+Issue 3: Connect Lambda with RDS
