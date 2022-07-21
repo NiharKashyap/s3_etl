@@ -27,4 +27,4 @@ for i in range(int(args.count)):
         profile['birthdate']=datetime.strftime(profile['birthdate'], '%Y-%m-%d')
         json.dump(profile, prof, indent=4)
         prof.close()
-        # upload_file("data/" + profile['username'] + '.json')
+        upload_file("data/" + profile['username'] + '.json')
